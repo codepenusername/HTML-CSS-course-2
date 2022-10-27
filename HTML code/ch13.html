@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>
+    Website
+  </title>
+
+</head>
+
+<body>
+
+  <a href="http://www.google.com" target="_blank">
+
+    <!-- button is used to make a button.-->
+
+    <button>
+      Google
+    </button>
+
+  </a>
+
+  <!-- onclick is pointing device button has been pressed and released on an element.-->
+
+  <button onclick="doSomething()" style="background-color: grey; 
+      color: green; border-radius: 5px;">
+    Click me
+  </button>
+
+  <!-- id is the class.-->
+
+  <p id="test">
+    Hello!
+  </p>
+
+  <!-- script is used to add JavaScript in html.-->
+
+  <script>
+
+    function doSomething() {
+      document.getElementById("test").innerHTML = "Goodbye!"
+    }
+
+  </script>
+
+</body>
+
+</html>
